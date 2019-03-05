@@ -1,5 +1,11 @@
 function dropdown() {
-  
+  var navElement =$("a");
+  var element = $(".drop-element-i")
+
+  navElement.click(function() {
+
+     element.toggleClass();
+  });
 }
 
 
@@ -9,6 +15,6 @@ function dropdown() {
 
 function init() {
 
-console.log("ok");
+dropdown()
 }
 $(document).ready(init);
