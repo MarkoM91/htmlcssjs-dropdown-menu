@@ -50,6 +50,10 @@ a{
 a:hover{
   color: black;
 }
+.nav-element{
+  display: flex;
+  flex-direction: column;
+}
 
 .drop-container-i{
   display: flex;
