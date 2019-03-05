@@ -9,7 +9,7 @@ header{
   height: 100px;
   border: 1px solid black;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: auto;
 }
@@ -18,10 +18,9 @@ header{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding: 0 30px;
 }
-.header-right{
-  margin-left: 10px;
-}
+
 .header-left{
   text-transform: uppercase;
 }
@@ -40,7 +39,7 @@ a{
   border-radius: 40px;
   color: white;
   background-color: rgb(235, 0, 141);
-  margin-top: 
+  margin-top:
 }
 a:hover{
   color: black;
