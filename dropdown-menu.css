@@ -20,8 +20,7 @@ header{
   justify-content: space-around;
 }
 .header-right{
-  display: flex;
-  flex-direction: row;
+  margin-left: 10px;
 }
 .header-left{
   text-transform: uppercase;
@@ -41,6 +40,7 @@ a{
   border-radius: 40px;
   color: white;
   background-color: rgb(235, 0, 141);
+  margin-top: 
 }
 a:hover{
   color: black;
