@@ -20,7 +20,8 @@ header{
   justify-content: space-around;
 }
 div a {
-list-style: none;  
+list-style: none;
+margin: 0 15px;
 }
 
 a{
@@ -33,4 +34,7 @@ a{
   border-radius: 40px;
   color: white;
   background-color: rgb(235, 0, 141);
+}
+a:hover{
+  color: black;
 }
