@@ -32,6 +32,10 @@ padding-left: 50px;
   margin: 0 15px;
 }
 
+.drop-container-i, .drop-element-i{
+  display: inline-block;
+}
+
 
 a{
   text-decoration: none;
@@ -51,4 +55,17 @@ header::after{
   clear: both;
   content: "";
   display: table;
+}
+
+a:hover{
+  color: black;
+}
+
+div.drop-container-i{
+  display: flex;
+  flex-direction: column;
+}
+div.drop-element-i{
+  display: flex;
+  flex-direction: column;
 }
