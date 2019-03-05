@@ -19,6 +19,9 @@ header{
   flex-direction: row;
   justify-content: space-around;
 }
+.header-left{
+  text-transform: uppercase;
+}
 div a {
 list-style: none;
 margin: 0 15px;
@@ -37,4 +40,14 @@ a{
 }
 a:hover{
   color: black;
+}
+
+.drop-container-i{
+  display: flex;
+  flex-direction: column;
+
+}
+.drop-element-i{
+  display: flex;
+  flex-direction: column;
 }
