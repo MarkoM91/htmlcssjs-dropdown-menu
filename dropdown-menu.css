@@ -19,6 +19,10 @@ header{
   flex-direction: row;
   justify-content: space-around;
 }
+.header-right{
+  display: flex;
+  flex-direction: row;
+}
 .header-left{
   text-transform: uppercase;
 }
