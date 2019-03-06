@@ -15,6 +15,6 @@ function dropdown() {
 
 function init() {
 
-dropdown()
+dropdown();
 }
 $(document).ready(init);
