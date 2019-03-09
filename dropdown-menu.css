@@ -23,10 +23,9 @@ i.fa-caret-left{
 
 .navbar{
 
-  width: 1250px;
+  width: 1100px;
   height: 100px;
   margin: auto;
-  border-bottom: 2px solid black;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -37,7 +36,9 @@ i.fa-caret-left{
 display: flex;
 flex-direction: row;
 align-items: center;
+
 }
+
 
 .navbar-left {
 
@@ -50,6 +51,7 @@ align-items: center;
   position: relative;
   display: flex;
   margin-left: 20px;
+  color:  #DCDCDD;
 }
 
 .drop-container-i{
@@ -73,7 +75,7 @@ top: 70px;
 width: 200px;
 height: 150px;
 text-align: center;
-box-shadow: 10px 10px 20px lightgrey;
+box-shadow: 20px 20px 20px lightgrey;
 }
 
 .drop-element-i, .drop-element-ii{
@@ -83,4 +85,13 @@ padding: 0 15px 0 0;
 
 a{
   text-decoration: none;
+  color: #DCDCDD;
+}
+.pink a{
+  color: white;
+  padding: 15px 25px;
+  border-radius: 40px;
+  color: white;
+  background-color: rgb(235, 0, 141);
+  text-align: center;
 }
