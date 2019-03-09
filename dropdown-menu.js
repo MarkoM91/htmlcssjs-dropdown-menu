@@ -1,20 +1,44 @@
-function dropdown() {
-  var navElement =$("a");
-  var element = $(".drop-element-i")
+function hiddedMenu() {
 
-  navElement.click(function() {
+  var subElement = $(".nav-element .drop-container-i");
+  subElement.slideUp();
 
-     element.toggleClass();
+}
+
+
+
+
+function elementClick(){
+
+var navElement = $(".nav-element");
+
+navElement.click(function() {
+
+  hiddedMenu();
+  var me = $(this);
+
+  me.children(".drop-container-i").slideToggle();
+});
+}
+
+function elementHover() {
+
+  var dropElement = $(".drop-element-i");
+
+  dropElement.hover(function() {
+
+    var me  = $(this);
+    me.children(".drop-container-ii").slideToggle();
+  }, function() {
+
+    var me  = $(this);
+    me.children(".drop-container-ii").slideToggle();
   });
 }
 
-
-
-
-
-
 function init() {
-
-dropdown();
+  elementHover();
+  elementClick();
 }
+
 $(document).ready(init);

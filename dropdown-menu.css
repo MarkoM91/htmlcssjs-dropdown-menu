@@ -4,86 +4,73 @@
   padding: 0;
 }
 
-header{
-  width: 100%;
-  height: 100px;
-  border: 1px solid black;
+.container{
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.nav-container {
+
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: auto;
-
 }
 
-.header-left, .header-right{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 0 30px;
-}
+i.fa-caret-left{
 
-.header-left{
-  text-transform: uppercase;
-}
-div a {
-list-style: none;
-margin: 0 15px;
-}
-
-a{
-  text-decoration: none;
-  color: rgb(160, 166, 173);
-  text-align: center;
+  margin-right: 15px;
   vertical-align: middle;
 }
 
+.navbar{
 
-.pink a{
-  color: white;
-  padding: 15px 25px;
-  border-radius: 40px;
-  color: white;
-  background-color: rgb(235, 0, 141);
-  text-align: center;
-}
-a:hover{
-  color: black;
-}
-.nav-element{
+  width: 1250px;
+  height: 100px;
+  margin: auto;
+  border-bottom: 2px solid black;
   display: flex;
-  flex-direction: column;
-  text-align: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar-left, .navbar-right{
+
+display: flex;
+flex-direction: row;
+}
+
+.nav-element{
+  height: 70px;
+  line-height: 70px;
   position: relative;
-  }
+  display: flex;
+  margin-left: 20px;
+}
 
 .drop-container-i{
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 70px;
-
-
-  }
-.drop-element-i{
-
-    background-color: #f9f9f9;
-    min-width: 100px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    display: none;
-    border: 1px solid black;
-    text-align: left;
-    z-index: 1
-
+position: absolute;
+top: 100px;
+right: 5px;
+width: 180px;
+background-color: rgba(0, 0, 0, 0.15);
+display: none;
+text-align: center;
+box-shadow: 10px 10px 20px lightgrey;
+border-radius: 7px;
 }
-.drop-element-i div{
-    width: 100px;
-    padding:  20px;
-    text-align: left;
-    margin-bottom: 10px;
 
+.drop-container-ii {
+position: absolute;
+display: none;
+background-color: rgba(0, 0, 0, 0.15);
+left: calc(-110%);
+top: 70px;
+width: 200px;
+height: 150px;
+text-align: center;
+box-shadow: 10px 10px 20px lightgrey;
 }
-.drop-element-i:hover{
 
-    background-color: rgba(1, 1, 0, 0.72);
+.drop-element-i, .drop-element-ii{
 
+padding: 0 15px 0 0;
 }
