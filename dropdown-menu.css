@@ -1,4 +1,5 @@
 *{
+
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -39,6 +40,15 @@ align-items: center;
 
 }
 
+#grey {
+
+color:  rgb(160, 166, 173);
+}
+
+#grey:hover {
+
+color:  black;
+}
 
 .navbar-left {
 
@@ -46,6 +56,7 @@ align-items: center;
 }
 
 .nav-element{
+
   height: 70px;
   line-height: 70px;
   position: relative;
@@ -55,6 +66,7 @@ align-items: center;
 }
 
 .drop-container-i{
+
 position: absolute;
 top: 70px;
 right: 5px;
@@ -64,9 +76,11 @@ display: none;
 text-align: center;
 box-shadow: 10px 10px 20px lightgrey;
 border-radius: 7px;
+text-align: right;
 }
 
 .drop-container-ii {
+
 position: absolute;
 display: none;
 background-color: rgba(0, 0, 0, 0.15);
@@ -77,38 +91,38 @@ height: 150px;
 text-align: center;
 box-shadow: 20px 20px 20px lightgrey;
 }
+
 #crypto {
+
 position: absolute;
 top: 210px;
 }
 
-.drop-element-i, .drop-element-ii{
+.drop-element-i, .drop-element-ii {
 
 padding: 0 15px 0 0;
 }
 
-a{
+a {
 
   text-decoration: none;
+  text-align: left;
+  color:rgb(160, 166, 173);
+}
+
+a:hover {
+
   color: black;
 }
 
-.nav-element > h2{
 
-  color: rgb(160, 166, 173):
-}
 
-h2:hover {
+.pink a {
 
-  color: rgb(160, 166, 173):
-}
-
-.pink a{
   color: white;
   padding: 15px 25px;
   border-radius: 40px;
   color: white;
   background-color: rgb(235, 0, 141);
   text-align: center;
-
 }
