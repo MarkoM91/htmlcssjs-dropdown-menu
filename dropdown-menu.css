@@ -36,6 +36,12 @@ i.fa-caret-left{
 
 display: flex;
 flex-direction: row;
+align-items: center;
+}
+
+.navbar-left {
+
+  text-transform: uppercase;
 }
 
 .nav-element{
@@ -73,4 +79,8 @@ box-shadow: 10px 10px 20px lightgrey;
 .drop-element-i, .drop-element-ii{
 
 padding: 0 15px 0 0;
+}
+
+a{
+  text-decoration: none;
 }
