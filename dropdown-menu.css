@@ -40,6 +40,16 @@ align-items: center;
 
 }
 
+#logo{
+  width: 100px;
+  height: 30px;
+}
+#logo img{
+  width: 100%;
+  height: 100%;
+}
+
+
 #grey {
 
 color:  rgb(160, 166, 173);
@@ -89,7 +99,7 @@ top: 70px;
 width: 200px;
 height: 150px;
 text-align: center;
-box-shadow: 20px 20px 20px lightgrey;
+box-shadow: 20px 20px 20px white;
 }
 
 #crypto {
@@ -126,4 +136,9 @@ a:hover {
   color: white;
   background-color: rgb(235, 0, 141);
   text-align: center;
+}
+
+ h2.active {
+
+  color: black;
 }

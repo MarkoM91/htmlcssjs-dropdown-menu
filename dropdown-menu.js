@@ -16,7 +16,7 @@ navElement.click(function() {
 
   hiddedMenu();
   var me = $(this);
-
+  
   me.children(".drop-container-i").slideToggle();
 });
 }
