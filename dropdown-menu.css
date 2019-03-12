@@ -112,6 +112,10 @@ top: 210px;
 padding: 0 15px 0 0;
 color:rgb(160, 166, 173);
 }
+.drop-element-i:hover, .drop-element-ii:hover {
+
+background:rgb(240, 240, 240);
+}
 
 a {
 
