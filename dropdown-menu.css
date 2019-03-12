@@ -37,14 +37,15 @@ i.fa-caret-left{
 display: flex;
 flex-direction: row;
 align-items: center;
-
 }
 
 #logo{
+
   width: 100px;
   height: 30px;
 }
 #logo img{
+
   width: 100%;
   height: 100%;
 }
