@@ -2,13 +2,11 @@ function hiddedMenu() {
 
   var subElement = $(".nav-element .drop-container-i");
   subElement.slideUp();
-
 }
 
 function elementClick(){
 
 var navElement = $(".nav-element");
-
 navElement.click(function() {
 
   hiddedMenu();

@@ -26,6 +26,7 @@ i.fa-caret-left{
 
   width: 1250px;
   height: 100px;
+
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -34,9 +35,9 @@ i.fa-caret-left{
 
 .navbar-left, .navbar-right{
 
-display: flex;
-flex-direction: row;
-align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 #logo{
@@ -44,21 +45,21 @@ align-items: center;
   width: 100px;
   height: 30px;
 }
+
 #logo img{
 
   width: 100%;
   height: 100%;
 }
 
-
 #grey {
 
-color:  rgb(160, 166, 173);
+  color:  rgb(160, 166, 173);
 }
 
 #grey:hover {
 
-color:  black;
+  color:  black;
 }
 
 .navbar-left {
@@ -70,51 +71,56 @@ color:  black;
 
   height: 70px;
   line-height: 70px;
+
   position: relative;
   display: flex;
   margin-left: 20px;
-
 }
 
 .drop-container-i{
 
-position: absolute;
-top: 70px;
-right: 5px;
-width: 200px;
-display: none;
-text-align: center;
-box-shadow: 5px 5px 20px lightgrey;
-border-radius: 7px;
-text-align: right;
+  position: absolute;
+  top: 70px;
+  right: 5px;
+
+  width: 200px;
+  display: none;
+  text-align: center;
+  text-align: right;
+
+  box-shadow: 5px 5px 20px lightgrey;
+  border-radius: 7px;
 }
 
 .drop-container-ii {
 
-position: absolute;
-display: none;
-left: calc(-103% );
-top: 70px;
-width: 200px;
-height: 150px;
-text-align: center;
-box-shadow: 5px 5px 20px lightgrey;
+  position: absolute;
+  left: calc(-103% );
+  top: 70px;
+
+  width: 200px;
+  height: 150px;
+
+  text-align: center;
+  display: none;
+  box-shadow: 5px 5px 20px lightgrey;
 }
 
 #crypto {
 
-position: absolute;
-top: 210px;
+  position: absolute;
+  top: 210px;
 }
 
 .drop-element-i, .drop-element-ii {
 
-padding: 0 15px 0 0;
-color:rgb(160, 166, 173);
+  padding: 0 15px 0 0;
+  color:rgb(160, 166, 173);
 }
+
 .drop-element-i:hover, .drop-element-ii:hover {
 
-background:rgb(240, 240, 240);
+  background:rgb(240, 240, 240);
 }
 
 a {
@@ -129,13 +135,12 @@ a:hover {
   color: black;
 }
 
-
-
 .pink a {
 
   color: white;
   padding: 15px 25px;
   border-radius: 40px;
+
   color: white;
   background-color: rgb(235, 0, 141);
   text-align: center;
